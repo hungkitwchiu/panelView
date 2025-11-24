@@ -2397,7 +2397,7 @@ else if (leave.gap == 1) {
         
         id <- rev(id)
         p <- ggplot(data, aes(x = period, y = units,
-                              fill = res), position = "identity") 
+                              fill = res)) 
         
 
         if (gridOff == FALSE) {
