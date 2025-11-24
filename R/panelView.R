@@ -2420,7 +2420,7 @@ else if (leave.gap == 1) {
         p <- p +
         theme(panel.grid.major = element_blank(),
               panel.grid.minor = element_blank(),
-              panel.border = element_rect(fill=NA,color=border.color, size=0.5, linetype="solid"),
+              panel.border = element_rect(fill=NA,color=border.color, linewidth=0.5, linetype="solid"),
               axis.line = element_blank(),
               axis.ticks = element_blank(),
               axis.title=element_text(size=cex.lab),
